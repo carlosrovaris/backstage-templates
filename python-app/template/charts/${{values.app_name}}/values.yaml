@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: carlosrovaris/${{values.app_name}}
+  repository: carlosrovaris8/${{values.app_name}}
   pullPolicy: IfNotPresent
   tag: ${{values.app_name}}-${{values.app_env}}-latest
 imagePullSecrets: []
